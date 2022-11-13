@@ -13,7 +13,7 @@ if (!ok) {
 import (
     "github.com/google/uuid"
 )
-uuidWithHyphen := uuid.New
+guid := uuid.New.String()
 
 // get keys from dictionary
 keys := make([]int, len(mymap))
