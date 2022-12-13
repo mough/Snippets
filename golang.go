@@ -8,6 +8,8 @@ firstString, ok := firstVar.(string)
 if (!ok) {
 	fmt.Printf("firstString is not a string, do something about it! Value:'%v'\n", firstString)
 }
+// string to int
+intVar, err := strconv.Atoi("100")
 
 // new guid
 import (
